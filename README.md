@@ -1,4 +1,4 @@
-# 🏎️ NEO RACING // NIGHT RUN
+# 🏎️ NEO RACING  NIGHT RUN
 
 > **A neon-soaked pseudo-3D racing game built entirely in Python and Pygame.**
 
