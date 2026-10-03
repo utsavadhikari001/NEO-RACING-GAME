@@ -1,41 +1,70 @@
-# 🏎️ NEO RACING  NIGHT RUN
+# 🏎️ NEO RACING NIGHT RUN
 
-> **A neon-soaked pseudo-3D racing game built entirely in Python and Pygame.**
+> A neon-soaked arcade racing game built with Python and Pygame.
 
-**NEO RACING // NIGHT RUN** is a fast-paced arcade racing game inspired by futuristic night highways, cyberpunk cities, and classic pseudo-3D racing games.
+**NEO RACING NIGHT RUN** is a futuristic arcade racing game developed as a personal Python side project.
 
-Race through neon-lit environments, manage your speed around winding roads, collect Nitro cells, use boost, avoid rival cars, and chase your best lap times across multiple futuristic routes.
-
-The game uses a **software-rendered pseudo-3D road system** rather than OpenGL or an external 3D engine.
+The game combines fast-paced racing, pseudo-3D road rendering, neon environments, AI opponents, Nitro boosting, multiple cars, and multiple tracks into a lightweight racing experience built with **Python and Pygame**.
 
 ---
 
-## ✨ Features
+## 🎮 Features
 
-* 🏁 **Pseudo-3D racing**
-* 🌃 Neon/cyberpunk night aesthetic
-* 🛣️ Curving perspective-based roads
-* 🚗 **6 selectable cars**
-* 🌆 **5 different racing routes**
-* 🤖 **3 AI rivals**
+* 🏁 Pseudo-3D racing system
+* 🌃 Futuristic neon night environment
+* 🚗 6 playable cars
+* 🛣️ 5 different racing tracks
+* 🤖 AI racing opponents
 * ⚡ Nitro boost system
-* 🔋 Collectible Nitro cells
-* 💥 Rival collision system
-* 🔥 Animated exhaust effects
-* 🎵 Menu and race music
-* 🔊 Engine, boost, drift, crash, countdown and finish sounds
-* 🏆 Best-time saving
-* 💾 Persistent car and track selection
-* ⚙️ Sound and music settings
-* 🎮 Keyboard and mouse menu controls
-* 🖥️ Runs without OpenGL
-* 🌐 No internet connection required
+* 🔋 Nitro pickups
+* 💥 Collision system
+* 🔥 Racing effects and particles
+* 🎵 Race and menu music
+* 🔊 Engine, boost, drift, crash and other sound effects
+* 🏆 Best-time tracking
+* 💾 Save system
+* ⚙️ Settings system
+* 🎮 Keyboard controls
+* 🖥️ Built without a traditional 3D game engine
+
+---
+
+# 📸 Screenshots
+
+Here are some screenshots from **NEO RACING NIGHT RUN**.
+
+> **Add your screenshots below.**
+
+### 🏠 Main Menu
+
+<!-- Add your main menu screenshot here -->
+
+<img width="993" height="646" alt="SS1" src="https://github.com/user-attachments/assets/16457c39-c0d8-44b6-b777-9c64adf4d1d5" />
+
+
+### 🏎️ Gameplay
+
+<!-- Add your gameplay screenshot here -->
+
+<img width="999" height="650" alt="SS2" src="https://github.com/user-attachments/assets/863df0bc-5d96-48b0-93f9-5af1b66d4f50" />
+<img width="1006" height="651" alt="SS5" src="https://github.com/user-attachments/assets/5c82ed48-88c3-465e-a3b5-9adec68e8e0c" />
+
+
+### 🚘 Car Selection / Garage
+
+<!-- Add your garage screenshot here -->
+
+<img width="1004" height="649" alt="SS4" src="https://github.com/user-attachments/assets/6995810d-457c-436c-ad25-461e33083df2" />
+<img width="1001" height="648" alt="Screenshot 2026-10-03 154159" src="https://github.com/user-attachments/assets/b54fc91e-2a35-4aa5-b973-45f56f758944" />
+
+
+
 
 ---
 
 # 🚘 Cars
 
-Choose between six different cars, each with its own performance characteristics.
+The game currently features **6 playable cars**, each with different performance characteristics.
 
 | Car         | Top Speed | Acceleration | Handling |
 | ----------- | --------: | -----------: | -------: |
@@ -46,32 +75,32 @@ Choose between six different cars, each with its own performance characteristics
 | **Titan**   |       335 |          445 |      3.7 |
 | **Apex**    |       400 |          455 |      4.4 |
 
-Different cars are designed around different driving characteristics:
+Each car provides a different driving experience.
 
-* **Neo** — balanced
-* **Volt** — acceleration focused
-* **Phantom** — high top speed
-* **Vector** — high handling
-* **Titan** — acceleration-oriented heavier car
-* **Apex** — balanced performance with strong acceleration
+* **Neo** — Balanced
+* **Volt** — Acceleration focused
+* **Phantom** — High top speed
+* **Vector** — Handling focused
+* **Titan** — Strong acceleration
+* **Apex** — Balanced performance
 
 ---
 
 # 🌃 Tracks
 
-Race across five futuristic routes:
+NEO RACING NIGHT RUN features **5 racing environments**.
 
 ### 🌆 Neon City
 
-A neon-lit urban route surrounded by a cyberpunk skyline.
+A futuristic city route surrounded by neon lights.
 
 ### 🛣️ Midnight Highway
 
-A high-speed highway built for long, fast runs.
+A high-speed highway designed for fast racing.
 
 ### ⚓ Cyber Port
 
-A futuristic industrial route with a cyberpunk port atmosphere.
+A futuristic industrial racing environment.
 
 ### ☁️ Skyway
 
@@ -79,59 +108,43 @@ A high-altitude futuristic racing route.
 
 ### 🔷 Nexus
 
-A mysterious neon route designed around the game's futuristic aesthetic.
-
-Each track has its own road width, visual environment, and curve variation.
+A futuristic neon racing environment designed around the game's visual style.
 
 ---
 
-# ⚡ Nitro System
+# ⚡ Nitro
 
 Nitro is one of the main gameplay mechanics.
 
-Hold:
+Use:
 
-**Shift + W**
+```text
+SHIFT + W
+```
 
 to activate Nitro while accelerating.
 
-Nitro:
+Nitro temporarily increases your speed and acceleration.
 
-* Increases maximum speed
-* Increases acceleration
-* Consumes the boost meter
-* Automatically regenerates when not being used
+Nitro can also be restored by collecting Nitro cells placed throughout the track.
 
-You can also collect **Nitro cells** placed along the road.
-
-Collecting one restores:
-
-**+42 Nitro**
-
-This encourages players to choose racing lines instead of simply staying in the center of the road.
+This adds another layer of strategy to racing because players need to decide when to use their boost and where to position themselves on the track.
 
 ---
 
-# 🏁 Racing System
+# 🏁 Racing
 
 Each race consists of:
 
-**3 laps**
+* **3 laps**
+* **3 AI opponents**
+* Multiple racing lanes
+* Curved roads
+* Nitro pickups
+* Collision interactions
+* Race timing
 
-with a total race distance of approximately:
-
-**15,600 distance units**
-
-The player races against three AI opponents.
-
-The rivals have different:
-
-* Starting positions
-* Lanes
-* Racing speeds
-* Cars
-
-Colliding with a rival temporarily reduces the player's speed.
+The goal is to complete the race as quickly as possible while managing speed, steering, Nitro and traffic.
 
 ---
 
@@ -147,48 +160,117 @@ Colliding with a rival temporarily reduces the player's speed.
 | Pause       | `Esc`               |
 | Restart     | `R`                 |
 
-### Menu
+### Menu Controls
 
-* `W` / `↑` — Move up
-* `S` / `↓` — Move down
-* `Enter` / `Space` — Select
-* `←` / `→` — Change track/car where applicable
-* `Esc` — Return
-
-Mouse controls are also supported in the menus and garage.
-
----
-
-# 🖥️ Requirements
-
-* **Python 3.10+**
-* **Pygame 2.5+**
-* Windows, Linux, or another Python-compatible desktop environment
-
-The game does **not** require:
-
-* OpenGL
-* Internet access
-* A game engine
-* External servers
+| Action           | Keyboard          |
+| ---------------- | ----------------- |
+| Move Up          | `W` / `↑`         |
+| Move Down        | `S` / `↓`         |
+| Select           | `Enter` / `Space` |
+| Change Selection | `←` / `→`         |
+| Back             | `Esc`             |
 
 ---
 
-# 📦 Installation
+# 🛠️ Built With
 
-Clone or download the project and enter the game directory:
+* **Python**
+* **Pygame**
+* JSON
+* PNG assets
+* WAV audio
 
-```bash
-cd NEO-RACING
+The game uses a custom pseudo-3D rendering approach instead of relying on a full 3D game engine.
+
+---
+
+# 🧠 Technical Overview
+
+The game is divided into several systems responsible for different parts of the experience.
+
+### Game System
+
+Handles:
+
+* Game states
+* Race loop
+* Player movement
+* AI opponents
+* Nitro
+* Pickups
+* Collisions
+* Race timing
+* Menus
+* Finish states
+
+### Pseudo-3D Road System
+
+The road is rendered using perspective calculations to create the appearance of a 3D racing environment while remaining a 2D Pygame application.
+
+### AI System
+
+AI opponents race alongside the player and follow the track while maintaining different speeds and positions.
+
+### Audio System
+
+The game includes separate sounds for:
+
+* Engine
+* Nitro
+* Drift
+* Collision
+* Countdown
+* Finish
+* Menu music
+* Race music
+
+### Save System
+
+The game can store information such as selected options and best race times.
+
+---
+
+# 📂 Project Structure
+
+The project intentionally keeps its files in a simple structure.
+
+```text
+NEO-RACING-NIGHT-RUN/
+│
+├── README.md
+├── requirements.txt
+│
+├── *.py
+├── *.json
+├── *.png
+└── *.wav
 ```
 
-Install the required dependency:
+The Python files contain the game's logic, while JSON files contain configuration/data and PNG/WAV files provide the game's visual and audio assets.
+
+---
+
+# 💻 Installation
+
+## 1. Clone the repository
 
 ```bash
-python -m pip install -r requirements.txt
+git clone YOUR-GITHUB-REPOSITORY-URL
 ```
 
-Start the game:
+## 2. Enter the project directory
+
+```bash
+cd NEO-RACING-NIGHT-RUN
+```
+
+## 3. Install the required package
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4. Start the game
 
 ```bash
 python main.py
@@ -196,312 +278,69 @@ python main.py
 
 ---
 
-# 🗂️ Project Structure
+# 📋 Requirements
 
-```text
-NEO-RACING/
-│
-├── main.py
-├── game.py
-│
-├── physics.py
-├── car.py
-├── player.py
-├── ai.py
-├── track.py
-├── camera.py
-├── collision.py
-├── particles.py
-├── road3d.py
-│
-├── audio.py
-├── ui.py
-├── menu.py
-├── garage.py
-├── settings.py
-├── save.py
-│
-├── cars.json
-├── tracks.json
-├── settings.json
-├── save.json
-├── requirements.txt
-│
-├── test_game.py
-├── art_cars.py
-│
-├── car_neo.png
-├── car_volt.png
-├── car_phantom.png
-├── car_vector.png
-├── car_titan.png
-├── car_apex.png
-│
-├── track_neon_city.png
-├── track_highway.png
-├── track_cyber_port.png
-├── track_skyway.png
-├── track_nexus.png
-│
-├── logo.png
-├── icon.png
-├── city_backdrop.png
-├── city_sky.png
-│
-├── engine.wav
-├── boost.wav
-├── drift.wav
-├── crash.wav
-├── countdown.wav
-├── finish.wav
-├── menu_music.ogg
-└── race_music.ogg
-```
+* Python 3.x
+* Pygame
 
----
-
-# 🧠 How It Works
-
-The main game loop is handled by `game.py`.
-
-The pseudo-3D road is generated by:
-
-```text
-road3d.py
-```
-
-Rather than using a traditional 3D engine, the game projects road positions onto the screen using perspective calculations.
-
-The basic gameplay flow is:
-
-```text
-Input
-  ↓
-Player acceleration / braking
-  ↓
-Steering + road curvature
-  ↓
-Speed calculation
-  ↓
-Rival movement
-  ↓
-Collision / Nitro detection
-  ↓
-Distance progression
-  ↓
-Perspective rendering
-  ↓
-HUD + effects
-```
-
----
-
-# 🏗️ Main Systems
-
-### `game.py`
-
-Controls the main game state and race loop.
-
-Handles:
-
-* Menus
-* Garage
-* Settings
-* Race state
-* Pause state
-* Finish state
-* Player movement
-* Nitro
-* Rivals
-* Pickups
-* Collision
-* Race timing
-* Saving best times
-
-### `road3d.py`
-
-Responsible for the pseudo-3D racing environment.
-
-It handles:
-
-* Perspective projection
-* Road rendering
-* Curves
-* Lane positioning
-* Roadside objects
-* Depth scaling
-
-### `audio.py`
-
-Handles the game's sound system:
-
-* Engine audio
-* Boost
-* Drift
-* Crash
-* Countdown
-* Finish
-* Menu music
-* Race music
-
-### `save.py`
-
-Handles persistent game data such as:
-
-* Selected car
-* Selected track
-* Best race times
-
-### `cars.json`
-
-Contains the performance statistics for all playable cars.
-
-### `tracks.json`
-
-Contains track configuration and visual information.
-
----
-
-# 💾 Save System
-
-The game automatically stores player preferences and best times in:
-
-```text
-save.json
-```
-
-Settings are stored separately in:
-
-```text
-settings.json
-```
-
-This means your selected car, selected track, and best times can persist between sessions.
-
----
-
-# 🧪 Testing
-
-A testing utility is included:
+Install the dependency with:
 
 ```bash
-python test_game.py
+pip install pygame
 ```
 
-It can be used to exercise parts of the game without launching the normal gameplay window.
+Or use:
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
-# 🎨 Visual Style
+# 🚀 Future Improvements
 
-NEO RACING follows a dark futuristic visual direction built around:
-
-* Deep black backgrounds
-* Electric blue lighting
-* Cyan neon elements
-* Futuristic cars
-* Glowing road elements
-* Cyberpunk city scenery
-* High-speed night racing
-
-The overall goal is to make the game feel like a futuristic arcade racer while keeping the implementation lightweight.
-
----
-
-# 🔧 Development
-
-This project was created as a **Python side project** using Pygame.
-
-The project also contains several modular systems and experimental/legacy modules, including:
-
-```text
-physics.py
-car.py
-player.py
-ai.py
-track.py
-camera.py
-collision.py
-particles.py
-```
-
-The current pseudo-3D racing experience primarily uses the newer road-rendering architecture centered around:
-
-```text
-game.py
-road3d.py
-```
-
-Some older helper modules are retained for experimentation and future development.
-
----
-
-# 🚀 Possible Future Improvements
-
-Potential future additions include:
+Possible future updates include:
 
 * 🏆 Championship mode
-* 🏁 More tracks
-* 🚘 More cars
-* 🤖 More advanced AI racing lines
 * 🥇 Leaderboards
+* 🚘 More cars
+* 🛣️ More tracks
+* 🤖 Improved AI
 * 🛠️ Car upgrades
 * 💨 More advanced drifting
 * 🌧️ Weather effects
-* 🌙 Different time-of-night environments
-* 🎨 More visual effects
-* 💥 More detailed collision effects
 * 🎮 Controller support
-* 🖥️ Resolution/fullscreen options
+* 🖥️ Fullscreen/resolution options
+* 🎨 Additional visual effects
 * 🔊 More dynamic audio
 * 🏅 Achievements
 
 ---
 
-# 📸 Screenshots
+# 👨‍💻 About the Project
 
-Add screenshots of the game here:
+**NEO RACING NIGHT RUN** was created as a personal side project to experiment with game development using Python.
 
-```text
-screenshots/
-├── menu.png
-├── garage.png
-├── neon_city.png
-├── race.png
-└── finish.png
-```
-
-Example:
-
-```markdown
-![Main Menu](screenshots/menu.png)
-
-![Race](screenshots/race.png)
-```
-
----
-
-# 👨‍💻 Project
-
-**NEO RACING // NIGHT RUN**
-
-A personal Python/Pygame side project focused on experimenting with:
+The project explores several areas of programming and game development, including:
 
 * Game loops
-* Arcade racing physics
+* Player movement
+* Racing physics
+* AI
 * Perspective rendering
-* AI opponents
-* UI systems
+* Collision detection
+* UI development
 * Audio systems
-* Persistent saves
-* Procedural road curvature
-* 2D asset rendering
+* Save systems
+* Game-state management
+
+The goal was to build a complete playable racing experience using **Python and Pygame**.
 
 ---
 
-## 📜 License
+# 📜 License
 
-Add your preferred license here before publishing the project publicly.
+If you plan to make the project open source, add your preferred license here.
 
 For example:
 
@@ -513,14 +352,12 @@ All rights reserved.
 
 ---
 
-# 🌌 NEO RACING // NIGHT RUN
+# 🏎️ NEO RACING NIGHT RUN
 
-**Accelerate. Drift. Boost. Survive the night.**
+**Race through the night. Push your limits.**
 
 ```text
-        N E O   R A C I N G
+NEO RACING NIGHT RUN
 
-          // NIGHT RUN //
-
-       SPEED • NEON • NITRO
+SPEED • NEON • NITRO
 ```
