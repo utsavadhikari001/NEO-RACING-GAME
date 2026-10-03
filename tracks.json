@@ -1,0 +1,87 @@
+[
+  {
+    "id": "neon_city",
+    "name": "Neon City",
+    "image": "track_neon_city.png",
+    "accent": [
+      23,
+      174,
+      255
+    ],
+    "ground": [
+      3,
+      9,
+      21
+    ],
+    "variation": 0.1,
+    "road_width": 152
+  },
+  {
+    "id": "highway",
+    "name": "Midnight Highway",
+    "image": "track_highway.png",
+    "accent": [
+      32,
+      123,
+      246
+    ],
+    "ground": [
+      3,
+      9,
+      21
+    ],
+    "variation": 0.9,
+    "road_width": 165
+  },
+  {
+    "id": "cyber_port",
+    "name": "Cyber Port",
+    "image": "track_cyber_port.png",
+    "accent": [
+      24,
+      200,
+      240
+    ],
+    "ground": [
+      3,
+      9,
+      21
+    ],
+    "variation": 1.7,
+    "road_width": 160
+  },
+  {
+    "id": "skyway",
+    "name": "Skyway",
+    "image": "track_skyway.png",
+    "accent": [
+      78,
+      147,
+      255
+    ],
+    "ground": [
+      3,
+      9,
+      21
+    ],
+    "variation": 2.4,
+    "road_width": 145
+  },
+  {
+    "id": "nexus",
+    "name": "Nexus",
+    "image": "track_nexus.png",
+    "accent": [
+      37,
+      195,
+      255
+    ],
+    "ground": [
+      3,
+      9,
+      21
+    ],
+    "variation": 3.2,
+    "road_width": 150
+  }
+]

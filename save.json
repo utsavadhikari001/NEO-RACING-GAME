@@ -1,0 +1,8 @@
+{
+  "selected_car": 1,
+  "selected_track": 1,
+  "best_times": {
+    "neon_city": 42.32,
+    "highway": 40.93
+  }
+}

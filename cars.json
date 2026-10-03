@@ -1,0 +1,8 @@
+[
+  {"name":"Neo", "sprite":"car_neo.png", "color":[31,236,247], "max_speed":380, "acceleration":420, "handling":4.1},
+  {"name":"Volt", "sprite":"car_volt.png", "color":[255,210,56], "max_speed":355, "acceleration":510, "handling":4.0},
+  {"name":"Phantom", "sprite":"car_phantom.png", "color":[188,93,255], "max_speed":425, "acceleration":375, "handling":3.5},
+  {"name":"Vector", "sprite":"car_vector.png", "color":[74,255,158], "max_speed":370, "acceleration":410, "handling":5.1},
+  {"name":"Titan", "sprite":"car_titan.png", "color":[255,112,83], "max_speed":335, "acceleration":445, "handling":3.7},
+  {"name":"Apex", "sprite":"car_apex.png", "color":[255,91,179], "max_speed":400, "acceleration":455, "handling":4.4}
+]
