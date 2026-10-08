@@ -66,7 +66,6 @@ Here are some screenshots from **NEO RACING NIGHT RUN**.
 <img width="996" height="649" alt="SS3" src="https://github.com/user-attachments/assets/6a79b91f-e62c-409a-bf42-74a37ce28072" />
 
 
-> Replace the image paths above with the actual names of the screenshots you upload.
 
 ---
 
